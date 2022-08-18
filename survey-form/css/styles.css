@@ -1,0 +1,21 @@
+p {
+    background-color: coral;
+    font-size: large;
+}
+
+label {
+    color: crimson;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: larger;
+    font-weight: 400;
+}
+
+input {
+    font-size: medium;
+    color: darkorange;
+    font-weight: 600;
+}
+
+form {
+    background-color: cadetblue;
+}

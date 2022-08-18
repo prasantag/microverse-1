@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+        <!--<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">-->
         <title>Survey Form Project done by Daniel and Prasanta</title>
-        <link rel="stylesheet" href="/survey-form/css/styles.css">
+        <link rel="stylesheet" href="css/styles.css">
     </head>
     <body>
         <main>
@@ -23,7 +23,7 @@
                 <input id="number" type="number" placeholder="Enter your Age" min="18" max="45"/>
             </div>
             <div>
-                <label id="dropdown">Which continent do you come from?</label>
+                <label id="label-dropdown">Which continent do you come from?</label>
                 <select id="dropdown">
                     <option >Europe</option>
                     <option >Asia</option>
@@ -31,8 +31,8 @@
             </div>
             <div>
                 <p>Did you enjoy the service?</p>
-                <label id="Yes"><input type="radio" name="recommend"/>Yes</label>
-                <label id="No"><input type="radio" name="recommend"/>No</label>
+                <label id="Yes"><input type="radio" name="recommend" value="y"/>Yes</label>
+                <label id="No"><input type="radio" name="recommend" value="n"/>No</label>
 
             </div>
             <div>
@@ -58,7 +58,7 @@
             </div>
             
 
-            <input type="submit" />
+            <input type="submit" id="submit"/>
         </form>
     </main>
     </body>
